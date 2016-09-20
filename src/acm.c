@@ -2306,7 +2306,7 @@ static void acm_port_up(struct acmc_port *port)
 
 		acm_ep_up(port, pkey);
 	}
-	return;
+
 err1:
 	acm_release_prov_context(dev_ctx);
 }
